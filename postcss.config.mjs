@@ -1,6 +1,6 @@
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    // خالی - هیچ پلاگینی استفاده نکن
   },
 };
 
