@@ -1,20 +1,12 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-// بارگذاری فونت Inter از Google Fonts
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
-
 export const metadata: Metadata = {
   title: "World Explorer",
-  description: "Explore countries around the world",
+  description: "Explore countries around the world with glassmorphism design",
 };
 
 export default function RootLayout({
@@ -23,7 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <Navbar />
         <main className="main-content">

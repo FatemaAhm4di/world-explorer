@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-section">
             <h3>World Explorer</h3>
-            <p>Discover countries, cultures, and amazing places around the globe.</p>
+            <p>Discover countries, cultures, and amazing places around the globe with our glassmorphism design.</p>
           </div>
 
           <div className="footer-section">
