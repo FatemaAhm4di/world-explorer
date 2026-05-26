@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 World Explorer
 
-## Getting Started
+A modern Next.js application for exploring countries around the world. Browse countries, view detailed information, search by name, and learn about flags, capitals, populations, currencies, and languages.
 
-First, run the development server:
+## ✨ Features
+
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Server & Client Components**
+- **Dynamic Routes** for country details
+- **Static & Dynamic Rendering**
+- **Search Functionality** with real-time filtering
+- **Responsive Design** for all devices
+- **Glassmorphism UI** with modern design
+
+## 🚀 Pages
+
+| Page | Route | Description |
+|------|-------|-------------|
+| Home | `/` | Welcome page with hero section and features |
+| Countries | `/countries` | List of 25 Asian countries with flags and info |
+| Country Details | `/countries/[code]` | Detailed information about each country |
+| Search | `/search` | Search any country by name (250+ countries) |
+| About | `/about` | Project information and technology stack |
+
+## 📸 Screenshots
+
+| Home Page | Countries Page |
+|-----------|----------------|
+| ![Home](./screenshots/home.png) | ![Countries](./screenshots/countries.png) |
+
+| Country Details | Search Page | About Page |
+|----------------|-------------|-------------|
+| ![Details](./screenshots/country-details.png) | ![Search](./screenshots/search.png) | ![About](./screenshots/about.png) |
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15
+- **Language:** TypeScript
+- **Styling:** CSS3 with Glassmorphism
+- **Icons:** Lucide React
+- **API:** REST Countries API
+- **Deployment:** Vercel
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/world-explorer.git
+
+# Install dependencies
+npm install
 ```
+Open:
+http//localhost:3000 to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 Live Demo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+world-explorer-delta.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👨‍💻 Author:
+Fatema Ahmadi
 
-## Learn More
+📄 License:
+MIT
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Run development server
+npm run dev
