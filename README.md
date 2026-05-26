@@ -25,13 +25,13 @@ A modern Next.js application for exploring countries around the world. Browse co
 
 ## 📸 Screenshots
 
-| Home Page | Countries Page |
-|-----------|----------------|
-| ![Home](./screenshots/home.png) | ![Countries](./screenshots/countries.png) |
-
-| Country Details | Search Page | About Page |
-|----------------|-------------|-------------|
-| ![Details](./screenshots/country-details.png) | ![Search](./screenshots/search.png) | ![About](./screenshots/about.png) |
+| Page | Screenshot |
+|------|------------|
+| Home Page | ![Home](./screenshots/home.png) |
+| Countries Page | ![Countries](./screenshots/countries.png) |
+| Country Details | ![Details](./screenshots/country-details.png) |
+| Search Page | ![Search](./screenshots/search.png) |
+| About Page | ![About](./screenshots/about.png) |
 
 ## 🛠️ Tech Stack
 
