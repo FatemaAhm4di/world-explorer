@@ -27,12 +27,11 @@ A modern Next.js application for exploring countries around the world. Browse co
 
 | Page | Screenshot |
 |------|------------|
-| Home Page | ![Home](./screenshots/home.png) |
-| Countries Page | ![Countries](./screenshots/countries.png) |
-| Country Details | ![Details](./screenshots/country-details.png) |
-| Search Page | ![Search](./screenshots/search.png) |
-| About Page | ![About](./screenshots/about.png) |
-
+| Home | ![Home](https://raw.githubusercontent.com/FatemaAhm4di/world-explorer/main/public/screenshots/home.png) |
+| Countries | ![Countries](https://raw.githubusercontent.com/FatemaAhm4di/world-explorer/main/public/screenshots/countries.png) |
+| Country Details | ![Details](https://raw.githubusercontent.com/FatemaAhm4di/world-explorer/main/public/screenshots/country-details.png) |
+| Search | ![Search](https://raw.githubusercontent.com/FatemaAhm4di/world-explorer/main/public/screenshots/search.png) |
+| About | ![About](https://raw.githubusercontent.com/FatemaAhm4di/world-explorer/main/public/screenshots/about.png) |
 ## 🛠️ Tech Stack
 
 - **Framework:** Next.js 15
