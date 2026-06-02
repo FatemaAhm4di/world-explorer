@@ -1,8 +1,8 @@
-# 🌍 World Explorer
+# 🌍 World Explorer :
 
 A modern Next.js application for exploring countries around the world. Browse countries, view detailed information, search by name, and learn about flags, capitals, populations, currencies, and languages.
 
-## ✨ Features
+## ✨ Features :
 
 - **Next.js 15** with App Router
 - **TypeScript** for type safety
@@ -13,7 +13,7 @@ A modern Next.js application for exploring countries around the world. Browse co
 - **Responsive Design** for all devices
 - **Glassmorphism UI** with modern design
 
-## 🚀 Pages
+## 🚀 Pages :
 
 | Page | Route | Description |
 |------|-------|-------------|
