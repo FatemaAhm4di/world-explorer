@@ -41,7 +41,7 @@ A modern Next.js application for exploring countries around the world. Browse co
 - **API:** REST Countries API
 - **Deployment:** Vercel
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the repository
